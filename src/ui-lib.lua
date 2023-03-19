@@ -72,10 +72,10 @@ local drag = function(obj, latency)
 end
 
 local library = {
-    version = "2.0.2",
-    title = title or "xsx " .. tostring(math.random(1,366)),
+    version = "3.0.0",
+    title = title or "lynx hub " .. tostring(math.random(1,366)),
     fps = 0,
-    rank = "private"
+    rank = "whitelisted"
 }
 
 coroutine.wrap(function()
@@ -195,7 +195,7 @@ function library:Watermark(text)
         end
     end
 
-    tetx = text or "xsx v2"
+    tetx = text or "lynx hub v3"
 
     local watermark = Instance.new("ScreenGui")
     local watermarkPadding = Instance.new("UIPadding")
@@ -319,7 +319,7 @@ function library:Watermark(text)
 
     local WatermarkFunctions = {}
     function WatermarkFunctions:AddWatermark(text)
-        tetx = text or "xsx v2"
+        tetx = text or "lynx hub v3"
 
         local edge = Instance.new("Frame")
         local edgeCorner = Instance.new("UICorner")
@@ -773,7 +773,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
-    xsx.Text = "powered by xsx"
+    xsx.Text = "powered by lynx hub"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
