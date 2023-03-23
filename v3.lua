@@ -4,4 +4,6 @@ elseif game.PlaceId == 7167319176 then -- Chicago Remastered
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18012/ChicagoRemastered.lua'))()
 elseif game.PlaceId == 11998813375 then -- Cali Streets
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18014/CaliStreets.lua'))()
+elseif game.PlaceId == 4836735146 then -- Street Shootout
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18098/StreetShootout.lua'))()
 end
