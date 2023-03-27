@@ -8,4 +8,6 @@ elseif game.PlaceId == 4836735146 then -- Street Shootout
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18098/StreetShootout.lua'))()
 elseif game.PlaceId == 9210611498 then -- Miami Florida
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18099/MiamiFlorida.lua'))()
+elseif game.PlaceId == 9874911474 then -- Tha Bronx 2
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18272/ThaBronx2.lua'))()
 end
