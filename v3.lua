@@ -10,4 +10,6 @@ elseif game.PlaceId == 9210611498 then -- Miami Florida
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18099/MiamiFlorida.lua'))()
 elseif game.PlaceId == 9874911474 then -- Tha Bronx 2
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18272/ThaBronx2.lua'))()
+elseif game.PlaceId == 10008277613 then -- SSB WRLD NEXT GEN
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18306/SSBWRLD.lua'))()
 end
