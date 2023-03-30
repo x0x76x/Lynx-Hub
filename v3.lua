@@ -12,4 +12,10 @@ elseif game.PlaceId == 9874911474 then -- Tha Bronx 2
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18272/ThaBronx2.lua'))()
 elseif game.PlaceId == 10008277613 then -- SSB WRLD NEXT GEN
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18306/SSBWRLD.lua'))()
+elseif game.PlaceId == 4588604953 then -- Criminality
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18331/Criminality.lua'))()
+elseif game.PlaceId == 6407649031 then -- No Scope Arcade
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18332/No-ScopeArcade.lua'))()
+elseif game.PlaceId == 6722284015 then -- Pistol 1v1
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18356/Pistol1v1.lua'))()
 end
