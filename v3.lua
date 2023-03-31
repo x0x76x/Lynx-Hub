@@ -18,4 +18,6 @@ elseif game.PlaceId == 6407649031 then -- No Scope Arcade
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18332/No-ScopeArcade.lua'))()
 elseif game.PlaceId == 6722284015 then -- Pistol 1v1
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18356/Pistol1v1.lua'))()
+elseif game.PlaceId == 286090429 then -- Arsenal
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18367/Arsenal.lua'))()
 end
