@@ -22,4 +22,6 @@ elseif game.PlaceId == 286090429 then -- Arsenal
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18367/Arsenal.lua'))()
 elseif game.PlaceId == 10784373080 then -- RAYS!
     loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18370/RaysFPS.lua'))()
+elseif game.PlaceId == 301549746 then -- CounterBlox
+    loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4796/18372/CounterBlox.lua'))()
 end
